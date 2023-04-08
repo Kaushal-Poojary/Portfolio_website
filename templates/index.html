@@ -1,0 +1,29 @@
+{%extends "base.html" %}
+{% block content %}
+<div class="form-container">
+    <div class="input-container">
+
+        <form action="#" method="post">
+            <div class="input-div">
+
+                <label for="">Name</label>
+                <input type="text" placeholder="John Doe" name="name">
+            </div>
+            <div class="input-div">
+
+                <label for="">Email</label>
+                <input type="email" placeholder="johndoe@gmail.com" name="email">
+            </div>
+            <div class="input-div">
+                <label for="">Message</label>
+                <textarea name="message" id="" cols="98" rows="5" placeholder="Hi.."></textarea>
+            </div>
+            <div class="submit-container">
+                <div class="input-div-submit">
+                    <input type="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

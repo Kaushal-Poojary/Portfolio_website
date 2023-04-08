@@ -9,8 +9,8 @@ def contact():
         email = request.form['email']
         msg = request.form['message']
         print('hello')
-        print(f'Data Submitted: \n ${name}  \n ${email}  \n ${msg}')
-        return render_template('index.html', data=f'${name} ${email} ${msg}')
+        print(f'Data Submitted: \n {name}  \n {email}  \n {msg}')
+        return render_template('index.html')
     else: 
         return render_template('index.html')
 if __name__ == "__main__":

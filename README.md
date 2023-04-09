@@ -28,7 +28,6 @@ The website should now be accessible at http://localhost:5000.
 
 The project is organized as follows:
 
-.
 ├── app.py            # Flask app <br/>
 ├── static/           # Static assets (CSS, JavaScript, images) <br/>
 ├── templates/        # HTML templates <br/>

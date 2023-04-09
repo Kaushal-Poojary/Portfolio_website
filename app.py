@@ -13,5 +13,10 @@ def contact():
         return render_template('index.html')
     else: 
         return render_template('index.html')
+    
+@app.route('/', methods=['GET'])
+def portfolio():
+    return render_template('portfolio.html')
+
 if __name__ == "__main__":
     app.run(debug=True)

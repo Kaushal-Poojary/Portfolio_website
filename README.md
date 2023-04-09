@@ -29,9 +29,9 @@ The website should now be accessible at http://localhost:5000.
 The project is organized as follows:
 
 .
-├── app.py            # Flask app
-├── static/           # Static assets (CSS, JavaScript, images)
-├── templates/        # HTML templates
+├── app.py            # Flask app <br/>
+├── static/           # Static assets (CSS, JavaScript, images) <br/>
+├── templates/        # HTML templates <br/>
 └── README.md         # This README file
 
 The app.py file contains the Flask app code, which serves the static HTML pages and assets. The static directory contains CSS, JavaScript, and image files used by the website. The templates directory contains the Jinja2 templates used to generate the HTML pages.

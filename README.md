@@ -18,7 +18,7 @@ To set up this project locally, follow these steps:
 3. Run the Flask development server using python app.py.
 
 $ git clone https://github.com/nilay-2/Portfolio_website.git <br/>
-$ cd my-portfolio <br/>
+$ cd Portfolio_website <br/>
 $ pip install flask <br/>
 $ flask run
 

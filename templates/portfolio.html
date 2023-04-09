@@ -1,0 +1,61 @@
+{%extends "base.html" %} {% block title %}Portfolio{% endblock %} {% block
+content %}
+<body>
+  <header>
+    <h1 class="head">John Doe</h1>
+    <nav>
+      <div>
+        <p>
+          Email:
+          <a href="mailto:johndoe@ves.ac.in"
+            >johndoe@ves.ac.in</a
+          >
+        </p>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2 class="me">About Me</h2>
+      <p>
+        Hi there! My name is John Doe, and I'm a tech geek with a passion for
+        all things related to technology. I love staying up to date with the
+        latest trends and developments in the tech world, and I enjoy exploring
+        how new technologies can be applied to solve real-world problems.
+      </p>
+      <p>
+        When I'm not busy tinkering with technology, you can usually find me
+        going to concert or playing cricket. I also enjoy attending tech
+        conferences and meetups to connect with other like-minded individuals in
+        the industry.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h3>Recipe Finder</h3>
+          <p>This project allows users to search for recipes based on ingredients or meal type. The user can enter the ingredients they have on hand, and the app will generate a list of recipes that they can make. Alternatively, the user can select a meal type (e.g. breakfast, lunch, dinner) and the app will display a list of recipes in that category. The user can also save their favorite recipes for future reference.</p>
+        </li>
+        <li>
+          <h3>Book Management System</h3>
+          <p>This project is a web application built using Node.js, Express.js and MongoDB that allows users to manage their book collection. Users can sign up for an account, log in, and add books to their collection by providing details such as the book title, author, genre, and cover image. They can also edit and delete books from their collection. The application also provides a search feature that allows users to search for books by title or author.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>You can contact me at: <a href="tel:+9950132100" class="contact-me">+9950132100</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Insert copyright and any other relevant information here.</p>
+  </footer>
+</body>
+
+{% endblock %}
+<!DOCTYPE html>

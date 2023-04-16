@@ -14,7 +14,7 @@ def contact():
     else: 
         return render_template('index.html')
     
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['GET','POST'])
 def portfolio():
     return render_template('portfolio.html')
 
